@@ -136,4 +136,4 @@ the purpose of a certain line of lines of code.
 One way to test this program is using the sleepy.c program. If MYps works correctly, when a user runs sleepy, the program should pick it up as a process owned by the user.
 All of the information that the sleepy.c process contains should be able to be printed out such as the command line the user used to run the sleepy program. Error catching
 for if a file wasn't able to be opened or if a read to a buffer failed was included just in case something went wrong during the execution of MYps. Another way of testing 
-this program is to simply use cat /proc/<pid>/<filename> in the terminal and compare the arguments retrieved from it with the values printed out by the MYps program.
+this program is to simply use cat /proc/'pid'/'filename' in the terminal and compare the arguments retrieved from it with the values printed out by the MYps program.
