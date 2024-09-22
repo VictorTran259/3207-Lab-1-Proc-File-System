@@ -1,0 +1,2 @@
+int getNumCPUs();
+void getAmountOfCacheInCPUs();

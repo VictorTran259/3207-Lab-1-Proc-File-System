@@ -1,0 +1,2 @@
+int getAmountFreeMem();
+int getNumMemBufs();
